@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0", "setuptools-scm>=8"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "logslop"
+dynamic = ["version"]
+description = "Log deduplication: strip repeated lines so readers and agents can focus on key events."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "Advanced Micro Devices, Inc." }]
+
+[project.urls]
+homepage = "https://github.com/amd/logslop"
+repository = "https://github.com/amd/logslop"
+issues = "https://github.com/amd/logslop/issues"
+
+[project.scripts]
+logslop = "logslop:main"
+
+[tool.setuptools]
+py-modules = ["logslop"]
+
+[tool.setuptools_scm]
+version_scheme = "post-release"
