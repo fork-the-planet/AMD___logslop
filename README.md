@@ -2,6 +2,8 @@
 
 LogsLop is a log summarization tool that removes repeated messages from log files, enabling readers and agents to home in quickly on key message events.
 
+See the ROCm blog at [LogsLop: A Tiny Summarization Tool for Enormous Log Files](https://rocm.blogs.amd.com/software-tools-optimization/logslop/README.html) to learn about how LogsLop works, examples, basic experiments, and evaluations.
+
 ## Getting started
 
 ```bash
